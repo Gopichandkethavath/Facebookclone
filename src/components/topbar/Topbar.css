@@ -1,0 +1,114 @@
+
+.Topconatiner
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(86, 86, 226);
+    color: white;
+    height:55px;
+    position: sticky;
+    top:0;
+    align-items: center;
+    width: 100%;
+}
+.topbarimg
+{
+    height: 25px;
+    width: 25px;
+}
+.left 
+{
+    flex:3px;
+}
+.center 
+{
+    flex:5px;
+    padding-right: 18px;
+
+
+}
+.right 
+{
+    flex:6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+
+}
+.text 
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin: 15px;
+}
+.searchbar 
+{
+    width:100%;
+    height: 23px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.searchicon 
+{
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    display: flex;
+    padding:1px 1px;
+    justify-content: center;
+    margin-left: 10px;
+    top:0;
+}
+.searchinput 
+{
+    width: 70%;
+    border: none;
+  border-radius: 0;
+}
+.searchinput:focus
+{ 
+    outline: none;
+
+}
+.links 
+{
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    
+
+}
+.links .home 
+{
+    margin:10px; 
+}
+.topbaricons 
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.iconbadge 
+{
+    border-radius: 60%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    height: 15px;
+    width:15px; 
+}
+.topbarimg
+{
+margin-left: 40px;
+border-radius: 50%;
+height: 30px;
+width: 30px;
+
+}
